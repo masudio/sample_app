@@ -15,6 +15,8 @@ group :development do
   gem 'annotate',
     :git => 'git://github.com/jeremyolliver/annotate_models.git',
     :branch => 'rake_compatibility'
+  gem 'execjs'
+  gem 'therubyracer'
 end
 
 group :test do
